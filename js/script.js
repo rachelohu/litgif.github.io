@@ -3,7 +3,6 @@ let gifData;
 const $title = $('#title');
 const $images = $('#images');
 const $url = $('#url');
-const $rating = $('#rating');
 const $input = $('input[type = "text"]');
 
 function handleGetData(event){
@@ -24,7 +23,6 @@ function render(){
     $title.text(gifData.data[0].title);
     $images.attr("src", gifData.data[0].images.original.url);
     $url.text(gifData.data[0].url);
-    $rating.text(gifData.data[0].rating);
 }
 
 $('form').on('submit', handleGetData);
