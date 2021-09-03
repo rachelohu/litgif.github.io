@@ -9,40 +9,25 @@ h1 {
 }
 
 p {
+    font: arial;
     color: white;
-}
-
-input[type=text] {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
 }
 
 main {
     text-align: center;
 }
 
-button {
-    all: unset;
-    cursor: pointer;
-    width: 44px;
-    height: 44px;
-  }
-
-  svg {
-    color: #fff;
-    fill: currentColor;
-    width: 24px;
-    height: 24px;
-    padding: 10px;
-  }  
-
 form {
-    all: unset;
-    width: 300px;
-    height: 44px;
-    border-radius: 5px;
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 8px 0;
 }
