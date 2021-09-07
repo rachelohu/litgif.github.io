@@ -5,6 +5,8 @@
 - javascript
 - jquery
 - ajax
+- Giphy API
+- Canva
 
 ## About the App
 
