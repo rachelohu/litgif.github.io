@@ -18,11 +18,23 @@ function handleGetData(event){
         console.log('Error:', error);
     })
 } 
-
 function render(){
     $title.text(gifData.data[0].title);
     $images.attr("src", gifData.data[0].images.original.url);
+    $images.attr("src", gifData.data[1].images.original.url);
+    $images.attr("src", gifData.data[2].images.original.url);
+    $images.attr("src", gifData.data[3].images.original.url);
+    $images.attr("src", gifData.data[4].images.original.url);
     $url.text(gifData.data[0].url);
 }
+
+// data.forEach(render)
+// render(images, index); {
+//   images, item; 
+// }
+
+// for (i = 0; i < 5; i++;) {
+// gifData.images = data.images
+//}
 
 $('form').on('submit', handleGetData);

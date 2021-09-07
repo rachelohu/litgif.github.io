@@ -8,19 +8,11 @@ h1 {
     color: white;
 }
 
-p {
-    font: arial;
-    color: white;
-}
-
 main {
     text-align: center;
 }
 
 form {
-    width: 600px;
-    height: 40px;
-    border-radius: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -31,3 +23,10 @@ input[type=text] {
     padding: 10px 0px;
     margin: 8px 0;
 }
+
+#bannerimage {
+    width: 100%;
+    background-image: url(https://i.ibb.co/ZJhbyBV/hustle.jpg);
+    height: 150px;
+    background-position: center;
+  }
