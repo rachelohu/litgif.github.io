@@ -4,7 +4,7 @@
 - css
 - javascript
 - jquery
-- canva
+- ajax
 
 ## About the App
 
