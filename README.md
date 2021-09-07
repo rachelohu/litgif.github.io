@@ -1,2 +1,12 @@
 # litgif.github.io
-This app will grab a gif based on search. I used html, css, javascript, and jquery to build this project. I am still in process of grabbing all the datas in the array using a for each loop.
+
+## Tech Used
+- ajax
+- css
+- javascript
+- jquery
+- canva
+
+## About the App
+
+- This app will grab a gif based on search. I am still in the process of grabbing all the datas in the array using a for each loop. 
