@@ -1,7 +1,6 @@
 # litgif.github.io
 
 ## Tech Used
-- ajax
 - css
 - javascript
 - jquery
