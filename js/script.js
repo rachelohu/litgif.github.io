@@ -20,12 +20,20 @@ function handleGetData(event){
 } 
 function render(){
     $title.text(gifData.data[0].title);
+    $title.text(gifData.data[1].title);
+    $title.text(gifData.data[2].title);
+    $title.text(gifData.data[3].title);
+    $title.text(gifData.data[4].title);
     $images.attr("src", gifData.data[0].images.original.url);
     $images.attr("src", gifData.data[1].images.original.url);
     $images.attr("src", gifData.data[2].images.original.url);
     $images.attr("src", gifData.data[3].images.original.url);
     $images.attr("src", gifData.data[4].images.original.url);
     $url.text(gifData.data[0].url);
+    $url.text(gifData.data[1].url);
+    $url.text(gifData.data[2].url);
+    $url.text(gifData.data[3].url);
+    $url.text(gifData.data[4].url);
 }
 
 // data.forEach(render)
@@ -34,7 +42,7 @@ function render(){
 // }
 
 // for (i = 0; i < 5; i++;) {
-// gifData.images = data.images
+// gifData = data[]
 //}
 
 $('form').on('submit', handleGetData);
